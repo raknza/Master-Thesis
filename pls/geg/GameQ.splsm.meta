@@ -1,0 +1,33 @@
+<ModelFileSettings>
+   <settings.general locked="false" currentModelName="GameQ.splsm" multigroupCalculationPossible="true"/>
+   <settings.data locked="false" algorithm="NONE" convergenceLevel="0" skipCompleteDataset="false" modelName="null"/>
+   <settings.algorithm.pls locked="false" innerModelDecoratorId="INNER_MODEL_DECORATOR_PATH_COEFFICIENTS" outerModelDecoratorId="OUTER_MODEL_DECORATOR_WEIGHT_AND_LOADING" constructDecoratorId="CONSTRUCT_DECORATOR_R_SQUARE" pathWeighting="NONE" weightingScheme="PATH" dataMetric="DATA_METRIC_1" maxIterations="300" stopCriterion="7" useLohmoellerMissingValueStyle="false">
+      <initialWeights class="java.util.ArrayList">
+         <initialWeight mv="AT1" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="AT2" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="AT3" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="AT4" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="BI1" lv="Behavioral Intention" weight="1.0"/>
+         <initialWeight mv="BI2" lv="Behavioral Intention" weight="1.0"/>
+         <initialWeight mv="BI3" lv="Behavioral Intention" weight="1.0"/>
+         <initialWeight mv="EE1" lv="Effort Expectancy" weight="1.0"/>
+         <initialWeight mv="EE2" lv="Effort Expectancy" weight="1.0"/>
+         <initialWeight mv="GM1" lv="Game Usefulness" weight="1.0"/>
+         <initialWeight mv="GM2" lv="Game Usefulness" weight="1.0"/>
+         <initialWeight mv="GM3" lv="Game Usefulness" weight="1.0"/>
+         <initialWeight mv="GU1" lv="Game Motivation" weight="1.0"/>
+         <initialWeight mv="GU2" lv="Game Motivation" weight="1.0"/>
+         <initialWeight mv="GU3" lv="Game Motivation" weight="1.0"/>
+         <initialWeight mv="HM1" lv="Hedonic Motivation" weight="1.0"/>
+         <initialWeight mv="HM2" lv="Hedonic Motivation" weight="1.0"/>
+         <initialWeight mv="PE1" lv="Performance Expectancy" weight="1.0"/>
+         <initialWeight mv="PE2" lv="Performance Expectancy" weight="1.0"/>
+         <initialWeight mv="SE1" lv="Self Efficacy" weight="1.0"/>
+         <initialWeight mv="SE2" lv="Self Efficacy" weight="1.0"/>
+         <initialWeight mv="UB1" lv="Use Behavior" weight="1.0"/>
+         <initialWeight mv="UB2" lv="Use Behavior" weight="1.0"/>
+      </initialWeights>
+   </settings.algorithm.pls>
+   <settings.algorithm.blindfolding locked="false" constructDecoratorId="CROSS_VALIDATED_REDUNDANCY" pathWeighting="NONE" omissionDistance="7"/>
+   <settings.algorithm.bootstrapping locked="false" innerModelDecoratorId="innerModelTValues" outerModelDecoratorId="outerModelTValues" constructDecoratorId="CONSTRUCT_DECORATOR_R_SQUARE" pathWeighting="NONE" samples="1000" confidenceIntervalMethod="PERCENTILE_BCA" significanceLevel="0.01" testType="TWO_TAILED" parallelProcessing="true" bootstrappingComplexity="BASIC_BOOTSTRAPPING"/>
+</ModelFileSettings>

@@ -1,0 +1,36 @@
+<ModelFileSettings>
+   <settings.general locked="false" currentModelName="geg.splsm" multigroupCalculationPossible="true"/>
+   <settings.data locked="false" algorithm="MEAN_REPLACEMENT" convergenceLevel="0" skipCompleteDataset="false" modelName="null"/>
+   <settings.algorithm.pls locked="false" innerModelDecoratorId="INNER_MODEL_DECORATOR_PATH_COEFFICIENTS" outerModelDecoratorId="OUTER_MODEL_DECORATOR_WEIGHTS" constructDecoratorId="CONSTRUCT_DECORATOR_R_SQUARE" pathWeighting="NONE" weightingScheme="FACTOR" dataMetric="DATA_METRIC_1" maxIterations="300" stopCriterion="7" useLohmoellerMissingValueStyle="false">
+      <initialWeights class="java.util.ArrayList">
+         <initialWeight mv="AT1" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="AT2" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="AT3" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="AT4" lv="Attitude" weight="1.0"/>
+         <initialWeight mv="AU1" lv="Actually Use" weight="1.0"/>
+         <initialWeight mv="AU2" lv="Actually Use" weight="1.0"/>
+         <initialWeight mv="AU3" lv="Actually Use" weight="1.0"/>
+         <initialWeight mv="CITU1" lv="Continuance intention to use" weight="1.0"/>
+         <initialWeight mv="CITU2" lv="Continuance intention to use" weight="1.0"/>
+         <initialWeight mv="CITU3" lv="Continuance intention to use" weight="1.0"/>
+         <initialWeight mv="GSE1" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="GSE2" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="GSE3" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="GSE4" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="GSE5" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="GSE6" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="GSE7" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="GSE8" lv="Git Self Efficacy" weight="1.0"/>
+         <initialWeight mv="PEOU1" lv="Perceived of Ease of Use" weight="1.0"/>
+         <initialWeight mv="PEOU2" lv="Perceived of Ease of Use" weight="1.0"/>
+         <initialWeight mv="PEOU3" lv="Perceived of Ease of Use" weight="1.0"/>
+         <initialWeight mv="PEOU4" lv="Perceived of Ease of Use" weight="1.0"/>
+         <initialWeight mv="PU1" lv="Perceived of Usefulness" weight="1.0"/>
+         <initialWeight mv="PU2" lv="Perceived of Usefulness" weight="1.0"/>
+         <initialWeight mv="PU3" lv="Perceived of Usefulness" weight="1.0"/>
+         <initialWeight mv="PU4" lv="Perceived of Usefulness" weight="1.0"/>
+         <initialWeight mv="PU5" lv="Perceived of Usefulness" weight="1.0"/>
+      </initialWeights>
+   </settings.algorithm.pls>
+   <settings.algorithm.bootstrapping locked="false" innerModelDecoratorId="innerModelTValues" outerModelDecoratorId="outerModelTValues" constructDecoratorId="CONSTRUCT_DECORATOR_R_SQUARE" pathWeighting="NONE" samples="500" confidenceIntervalMethod="PERCENTILE_BCA" significanceLevel="0.05" testType="TWO_TAILED" parallelProcessing="true" bootstrappingComplexity="BASIC_BOOTSTRAPPING"/>
+</ModelFileSettings>
